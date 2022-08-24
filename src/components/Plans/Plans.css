@@ -60,3 +60,28 @@
 .plans > :nth-child(2) > button {
     color: var(--orange);
 }
+.plans-blur-1 {
+    width: 32rem;
+    height: 23rem;
+    top: 4rem;
+    left: 0rem;
+}
+.plans-blur-2 {
+    width: 28rem;
+    height: 16rem;
+    top: 18rem;
+    right: 0rem;
+}
+
+@media screen and (max-width: 810px) {
+    .plans-container {
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .plans {
+        flex-direction: column;
+    }
+}

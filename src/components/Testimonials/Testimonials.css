@@ -51,7 +51,7 @@
 .right-testim > :nth-child(2){
     position: absolute;
     width: 17rem;
-    height: 20rem;
+    height: 19rem;
     right: 7rem;
     top: 4rem;
     background: var(--planCard);
@@ -67,4 +67,57 @@
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 810px) 
+{
+    .left-testim > :nth-child(2),
+    .left-testim > :nth-child(3) {
+        font-size: xx-large;
+    }     
+    .left-testim {
+        gap: 1rem;
+    }
+    .right-testim {
+        position: relative;
+        left: 7rem;
+    }
+    .right-testim > :last-child {
+        display: flex;
+        bottom: -3rem;
+        left: -28rem;
+        gap: 8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .left-testim > :nth-child(2),
+    .left-testim > :nth-child(3) {
+        font-size: xx-large;
+    }
+    .right-testim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .right-testim > div {
+        position: relative;
+        display: none;
+    }
+    .right-testim > img {
+        position: relative;
+        align-self: center;
+    }
+    .right-testim > :last-child {
+        display: flex;
+        bottom: -1rem;
+        left: -8rem;
+        gap: 10rem;
+    }
 }

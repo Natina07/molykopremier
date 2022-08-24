@@ -21,14 +21,14 @@ const Reasons = () => {
         <div className="right-reasons">
             <span>Some reasons</span>
             <div>
-                <span className='stroke-text'>Why</span>
+                <span className='stroke-text'>Why </span>
                 <span>Choose Us?</span>
             </div>
             <div className='right-reasons-details'>
                 <div><img src={tick} alt='' /><span>Over 140 expert coaches</span></div>
                 <div><img src={tick} alt='' /><span>Train smarter and faster than before</span></div>
-                <div><img src={tick} alt='' /><span></span>1 free program for new members</div>
-                <div><img src={tick} alt='' /><span></span>Reliable Partners</div>
+                <div><img src={tick} alt='' /><span>1 free program for new members</span></div>
+                <div><img src={tick} alt='' /><span>Reliable Partners</span></div>
             </div>
             <span 
             style={{
