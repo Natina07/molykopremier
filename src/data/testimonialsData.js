@@ -1,25 +1,25 @@
 import image1 from "../assets/t-image1.png";
-import image2 from "../assets/t-image2.jpg";
-import image3 from "../assets/t-image3.jpg";
+import image2 from "../assets/t-image2.png";
+import image3 from "../assets/t-image3.png";
 
 export const testimonialsData = [
   {
     image: image1,
     review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
-    name: 'MATHEW HENDRICKSON',
+      "Wow, I really recommend this place for you if you want to have some fun while you do your workout! They have amazing staff that are super serious and makes you reach your goals with a smile on their faces!! Thank you Molyko Premier,",
+    name: 'THEODORE NGO MANJI',
     status : 'ENTREPRENEUR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
-    name: 'JOHN KEVIN',
-    status: 'COACH'
+    review: 'Molyko Premier is the cleanest and most organized gym I’ve ever seen! I have no words to say how wonderful they are! Ebot makes you feel super comfortable, Enanga helps you eat better and healthy!',
+    name: 'ABIGAIL NDIFET',
+    status: 'LAWYER'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
-    name: 'FRANKLIN',
-    status: "CUSTOMER"
+    review:' It has been almost one year and I have lost weight and increased my strength.  I find the coaches – so motivating and supportive. ',
+    name: 'CHRISTABEL AGWETANG',
+    status: "UNIVERSITY STUDENT"
   }
 ];

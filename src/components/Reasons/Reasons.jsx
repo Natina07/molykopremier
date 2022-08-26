@@ -19,16 +19,16 @@ const Reasons = () => {
             <img src={image4} alt='' />
         </div>
         <div className="right-reasons">
-            <span>Some reasons</span>
+            <span>The Molyko Premier Advantage</span>
             <div>
                 <span className='stroke-text'>Why </span>
                 <span>Choose Us?</span>
             </div>
             <div className='right-reasons-details'>
-                <div><img src={tick} alt='' /><span>Over 140 expert coaches</span></div>
-                <div><img src={tick} alt='' /><span>Train smarter and faster than before</span></div>
-                <div><img src={tick} alt='' /><span>1 free program for new members</span></div>
-                <div><img src={tick} alt='' /><span>Reliable Partners</span></div>
+                <div><img src={tick} alt='' /><span>Top fitness classes led by expert instructors</span></div>
+                <div><img src={tick} alt='' /><span>Get all your sports gear at low cost</span></div>
+                <div><img src={tick} alt='' /><span>Live healthy with our fitness App</span></div>
+                <div><img src={tick} alt='' /><span>Passionate and Supportive Community</span></div>
             </div>
             <span 
             style={{

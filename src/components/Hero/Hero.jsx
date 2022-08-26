@@ -26,13 +26,13 @@ const Hero = () => {
           </div>
           <div className="hero-text">
             <div>
-              <span className='stroke-text'>Shape </span>
-              <span>Your</span>
+              <span className='stroke-text'>Workout </span>
+              <span>For your</span>
             </div>
             <div>
-              <span>Ideal body</span>
+              <span>Best Results</span>
             </div>
-            <div><span>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the</span></div>
+            <div><span>Our sparkling clean gym is waiting for you, with premium strength and cardio equipment, turf zones, and expert coaching.</span></div>
           </div>
           <div className="figures">
             <div><span><NumberCounter end={140} start={40} delay='2' preFix='+' /></span><span>expert coaches</span></div>

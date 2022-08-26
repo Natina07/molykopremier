@@ -8,14 +8,14 @@
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
     align-items: center;
-    height: 12rem;
+    height: 16rem;
 }
 .social-handles {
     display: flex;
     gap: 4rem; 
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .social-handles > img {
     width: 2rem;
@@ -29,5 +29,15 @@
     bottom: 0;
     left: 0;
     width: 18rem;
-    height: 14rem;
+    height: 15rem;
 }
+
+.credits {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--orange);
+  }
+  
+  .credits:hover {
+    color: var(--lightgray) !important;
+  }

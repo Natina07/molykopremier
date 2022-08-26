@@ -4,7 +4,7 @@
 }
 .logo{
     width: 10rem;
-    height: 3rem;
+    height: 7rem;
 }
 .header-menu{
     list-style: none;
@@ -24,7 +24,7 @@
 @media screen and (max-width: 768px){
     .header > :nth-child(1){
     width: 8rem;
-    height: 2rem;
+    height: 5rem;
     }
     .header > :nth-child(2){
     position: fixed;
